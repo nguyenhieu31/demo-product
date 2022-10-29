@@ -1,0 +1,129 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  margin-top: 20px;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.wrapper .listCart {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.itemCartInform {
+  min-width: 700px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.itemCartInform img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.content .inform {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content .in_deBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: red;
+  font-size: 1.25rem;
+}
+
+.content .in_deBtn i {
+  cursor: pointer;
+  transition: all 0.1s linear;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.content .in_deBtn i:hover {
+  background-color: rgba(204, 204, 204, 0.499);
+}
+
+.priceAndDeleteBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
+
+.priceAndDeleteBtn i {
+  font-size: 1.25rem;
+  transition: all 0.1s ease-in-out;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.priceAndDeleteBtn i:hover {
+  color: red;
+  background-color: rgba(204, 204, 204, 0.499);
+}
+
+.informPay {
+  padding: 10px 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 0.5rem;
+  height: max-content;
+}
+
+.informPay .estimatedTotal,
+.informPay .saleTax,
+.informPay .shippingCost,
+.informPay .money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.informPay .estimatedTotal {
+  position: relative;
+  margin-top: 15px;
+}
+
+.informPay .estimatedTotal::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  top: -10px;
+}
+
+.btnPay {
+  margin-top: 2rem;
+  border: none;
+  background-color: #f1fb67;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.1s linear;
+}
+
+.btnPay:hover {
+  color: red;
+  background-color: #f1fb67ad;
+}

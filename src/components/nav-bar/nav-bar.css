@@ -1,0 +1,15 @@
+.dropdown-toggle::after {
+  display: none;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 150px;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  width: 100%;
+}

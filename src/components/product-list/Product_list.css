@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+}
+
+.productList {
+  margin-top: 15px;
+}
+
+.col-3 {
+  padding-right: 0;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  transform: scale(1);
+  color: black;
+}
+
+.col-3:hover {
+  transform: scale(1.02);
+  color: red;
+}
